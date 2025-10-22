@@ -57,11 +57,11 @@
                     <input type="text" class="form-control" id="cognome-autore"
                         placeholder="Inserisci il cognome dell'autore" required>
                 </div>
-            </div><!--Fine row-->
+            <!--Fine row-->
             <!--Fine 1section-->
 
 
-            <div class="row">
+            
                 <div class="col-12">
 
                     <label for="titolo-libro" class="form-label">Titolo</label>
@@ -70,12 +70,12 @@
                     <p class="text-secondary">Titolo versione italiana</p>
 
                 </div>
-            </div><!--Fine row-->
+            <!--Fine row-->
 
 
             <!--Inizio sezione sul genere-->
 
-            <div class="row">
+            
                 <div class="col-12 mt-4">
                     <label for="genere" class="form-label">Genere</label>
                     <select class="form-select" aria-label="select-genere">
@@ -85,43 +85,59 @@
 
                     </select>
                 </div>
-            </div>
+            
             <!--Fine sezione sul genere-->
 
 
-            <div class="row">
+            
                 <div class="col-12 mt-4">
                     <label for="anno-publicazione" class="form-label">Anno di publicazione</label>
                     <input type="number" class="form-control" id="anno-publicazione" placeholder="Inserisci l'anno"
                         required>
                 </div>
-            </div>
+            
 
 
             <!--Inizio sezione codice ISBN-->
-            <div class="row">
+            
                 <div class="col-12 mt-4">
                     <label for="isbn" class="form-label">ISBN#</label>
                     <input type="number" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#"
                         required>
                 </div>
-            </div>
+            
 
             <!--Fine sezione codice ISBN-->
             <hr />
             <!--Inizio sezione note-->
-            <div class="row">
+            
                 <div class=" col-12 mb-3">
                     <label for="note" class="form-label">Note</label>
-                    <textarea class="form-control" id="note" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                    <textarea class="form-control" id="note" rows="3"
+                        placeholder="Inserisci eventuali note sul libro"></textarea>
                 </div>
+            <!--Fine row-->
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="check-digitale">
+                    <label class="form-check-label" for="ceck-digitale">
+                        Disponibile anche in digitale
+                    </label>
+                </div>
+            </div>
+
+            <!--Bottone-->
+
+            <div class="col-6 mt-3">
+                <button type="button" class="btn btn-primary">Aggiungi un libro</button>
             </div>
 
 
 
 
 
-
+            </div><!--Fine row-->
         </div><!--Fine container-->
     </main>
 </body>
