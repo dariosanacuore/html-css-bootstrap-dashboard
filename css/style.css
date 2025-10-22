@@ -5,3 +5,6 @@
     width: auto;
     height:auto;
 }
+.no-white-space{
+    white-space: wrap;;
+}
