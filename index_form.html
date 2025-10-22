@@ -92,7 +92,7 @@
             
                 <div class="col-12 col-lg-4 mt-4">
                     <label for="anno-publicazione" class="form-label">Anno di publicazione</label>
-                    <input type="number" class="form-control" id="anno-publicazione" placeholder="Inserisci l'anno"
+                    <input type="number" class="form-control" id="anno-publicazione" max="2025" placeholder="Inserisci l'anno"
                         required>
                 </div>
             
@@ -102,7 +102,7 @@
             
                 <div class="col-12 col-lg-4 mt-4">
                     <label for="isbn" class="form-label">ISBN#</label>
-                    <input type="number" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#"
+                    <input type="text" class="form-control" id="isbn" maxlength="13" placeholder="Inserisci il codice ISBN#"
                         required>
                 </div>
             
@@ -130,13 +130,13 @@
             <!--Bottone-->
 
             <div class="col-6 mt-3">
-                <button type="button" class="btn btn-primary">Aggiungi un libro</button>
+                <button class="btn btn-primary" type="submit">Aggiungi un libro</button>
             </div>
 
 
 
 
-
+        </form>
             </div><!--Fine row-->
         </div><!--Fine container-->
     </main>
