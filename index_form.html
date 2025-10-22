@@ -42,61 +42,80 @@
     <main class="py-5">
         <div class="container"><!--Inizio container-->
             <!--Inizio 1 sezione-->
-            <section class="mb-4">
 
-                <div class="row">
-                    <div class="col-6">
-                        <form action="">
-                            <label for="nome-autore" class="form-label">Nome autore</label>
-                            <input type="text" class="form-control" id="nome-autore"
-                                placeholder="Inserisci il nome dell'autore" required>
 
-                    </div>
-                    <div class="col-6">
-                        <label for="cognome-autore" class="form-label">Cognome autore</label>
-                        <input type="text" class="form-control" id="cognome-autore"
-                            placeholder="Inserisci il cognome dell'autore" required>
-                    </div>
-                </div><!--Fine row-->
-            </section><!--Fine 1section-->
-            <section>
+            <div class="row">
+                <div class="col-6 mb-4">
+                    <form action="">
+                        <label for="nome-autore" class="form-label">Nome autore</label>
+                        <input type="text" class="form-control" id="nome-autore"
+                            placeholder="Inserisci il nome dell'autore" required>
 
-                <div class="row">
-                    <div class="col-12">
+                </div>
+                <div class="col-6">
+                    <label for="cognome-autore" class="form-label">Cognome autore</label>
+                    <input type="text" class="form-control" id="cognome-autore"
+                        placeholder="Inserisci il cognome dell'autore" required>
+                </div>
+            </div><!--Fine row-->
+            <!--Fine 1section-->
 
-                        <label for="titolo-libro" class="form-label">Titolo</label>
-                        <input type="text" class="form-control" id="titolo-libro"
-                            placeholder="Inserisci il titolo del libro" required>
-                            <p class="text-secondary">Titolo versione italiana</p>
 
-                    </div>
-                </div><!--Fine row-->
-            </section>
+            <div class="row">
+                <div class="col-12">
+
+                    <label for="titolo-libro" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="titolo-libro"
+                        placeholder="Inserisci il titolo del libro" required>
+                    <p class="text-secondary">Titolo versione italiana</p>
+
+                </div>
+            </div><!--Fine row-->
+
 
             <!--Inizio sezione sul genere-->
-            <section class="mt-4">
-                <div class="row">
-                    <div class="col-12">
-                        <label for="genere" class="form-label">Genere</label>
-                        <select class="form-select" aria-label="select-genere">
-                            <option selected>Scegli il genere</option>
-                            <option value="1">Maschio</option>
-                            <option value="2">Femmina</option>
-                            
-                        </select>
-                    </div>
-                </div>
-            </section><!--Fine sezione sul genere-->
 
-            <section>
-                <div class="row">
-                    <div class="col-12">
-                        <label for="anno-publicazione" class="form-label">Anno di publicazione</label>
-                        <input type="number" class="form-control" id="anno-publicazione"
-                            placeholder="Inserisci l'anno" required>
-                    </div>
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <label for="genere" class="form-label">Genere</label>
+                    <select class="form-select" aria-label="select-genere">
+                        <option selected>Scegli il genere</option>
+                        <option value="1">Maschio</option>
+                        <option value="2">Femmina</option>
+
+                    </select>
                 </div>
-            </section>
+            </div>
+            <!--Fine sezione sul genere-->
+
+
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <label for="anno-publicazione" class="form-label">Anno di publicazione</label>
+                    <input type="number" class="form-control" id="anno-publicazione" placeholder="Inserisci l'anno"
+                        required>
+                </div>
+            </div>
+
+
+            <!--Inizio sezione codice ISBN-->
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <label for="isbn" class="form-label">ISBN#</label>
+                    <input type="number" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#"
+                        required>
+                </div>
+            </div>
+
+            <!--Fine sezione codice ISBN-->
+            <hr />
+            <!--Inizio sezione note-->
+            <div class="row">
+                <div class=" col-12 mb-3">
+                    <label for="note" class="form-label">Note</label>
+                    <textarea class="form-control" id="note" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                </div>
+            </div>
 
 
 
