@@ -12,39 +12,68 @@
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <!-- LOGO a sinistra -->
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="./duck.png" alt="Logo" width="40" height="40">
-        </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <!-- LOGO a sinistra -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="./duck.png" alt="Logo" width="40" height="40">
+                </a>
 
-        <!-- Bottone per il menu mobile -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <!-- Bottone per il menu mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <!-- Link del menu -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-3 text-light ">
-            <li class="nav-item"><a class="nav-link active" href="#"></a>Catalogo Libri</li>
-            <li class="nav-item"><a class="nav-link" href="#"></a>Anagrafica utenti</li>
-            <li class="nav-item"><a class="nav-link" href="#"></a>Storico prestiti</li>
-            <li class="nav-item"><a class="nav-link" href="#"></a>Help</li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+                <!-- Link del menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-3 text-light ">
+                        <li class="nav-item"><a class="nav-link active" href="#"></a>Catalogo Libri</li>
+                        <li class="nav-item"><a class="nav-link" href="#"></a>Anagrafica utenti</li>
+                        <li class="nav-item"><a class="nav-link" href="#"></a>Storico prestiti</li>
+                        <li class="nav-item"><a class="nav-link" href="#"></a>Help</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  </header>
-  <!--Fine header-->
-  <main class="py-5">
-    <div class="container">
-        
-    </div>
+    </header>
+    <!--Fine header-->
+    <main class="py-5">
+        <!--Inizio 1 sezione-->
+        <section class="mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <form action="">
+                            <label for="nome-autore" class="form-label">Nome autore</label>
+                            <input type="text" class="form-control" id="nome-autore"
+                                placeholder="Inserisci il nome dell'autore" required>
 
-  </main>
+                    </div>
+                    <div class="col-6">
+                        <label for="cognome-autore" class="form-label">Cognome autore</label>
+                        <input type="text" class="form-control" id="cognome-autore"
+                            placeholder="Inserisci il cognome dell'autore" required>
+                    </div>
+                </div><!--Fine row-->
+            </div><!--Fine container-->
+        </section><!--Fine 1section-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        
+                        <label for="titolo-libro" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="titolo-libro" placeholder="Inserisci il titolo del libro" required>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
 </body>
 
 </html>
